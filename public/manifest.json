@@ -1,0 +1,54 @@
+{
+  "id": "com.nutripulse.ai.app",
+  "name": "NutriPulse.AI — Tracker Calories & Macros IA",
+  "short_name": "NutriPulse",
+  "description": "Application Android & Web autoverifiée pour le suivi des repas, des calories et des macronutriments par l'intelligence artificielle.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "categories": ["health", "fitness", "lifestyle", "food"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Scanner Repas IA",
+      "short_name": "Scanner",
+      "description": "Prendre une photo de votre repas",
+      "url": "/?tab=photo"
+    },
+    {
+      "name": "Scanner Code-Barres",
+      "short_name": "Code-Barres",
+      "description": "Scanner le code-barres d'un produit",
+      "url": "/?tab=barcode"
+    }
+  ]
+}

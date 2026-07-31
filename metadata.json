@@ -1,0 +1,10 @@
+{
+  "name": "NutriPulse - Tracker de Calories & Macros IA",
+  "description": "Calculateur de besoins caloriques, analyseur de repas par photo et texte avec IA Gemini, et scanner de code-barres.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
